@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Waiz Izhan - Diploma in Information Technology student portfolio.">
+  <title>Waiz Izhan | IT E-Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo" aria-label="Waiz home">
+        <span class="logo-mark">W</span>
+        <span>Abe Izz<span class="logo-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span id="themeIcon">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            Available for opportunities
+          </div>
+
+          <p class="eyebrow">DIPLOMA IN INFORMATION TECHNOLOGY</p>
+
+          <h1>
+            Hi, I'm <span class="gradient-text">Muhammad Waiz Izhan</span>
+          </h1>
+
+          <h2>I build <span id="typingText">digital experiences.</span></h2>
+
+          <p class="hero-description">
+            An IT student passionate about web development, coding, system development
+            and creative digital solutions. I enjoy turning ideas into useful and
+            user-friendly experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View My Work <span>↗</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="quick-stats">
+            <div>
+              <strong>IT</strong>
+              <span>Student</span>
+            </div>
+            <div>
+              <strong>Web</strong>
+              <span>Development</span>
+            </div>
+            <div>
+              <strong>UI</strong>
+              <span>Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="code-window">
+            <div class="window-top">
+              <div class="window-dots"><span></span><span></span><span></span></div>
+              <span>portfolio.js</span>
+              <span class="window-icon">⌘</span>
+            </div>
+            <pre><code><span class="code-purple">const</span> developer = {
+  <span class="code-blue">name</span>: <span class="code-green">"Waiz Izhan"</span>,
+  <span class="code-blue">field</span>: <span class="code-green">"Information Technology"</span>,
+  <span class="code-blue">skills</span>: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"PHP"</span>,
+    <span class="code-green">"SQL"</span>
+  ],
+  <span class="code-blue">learning</span>: <span class="code-green">"Every day"</span>
+};
+
+<span class="code-purple">return</span> developer;</code></pre>
+          </div>
+
+          <div class="floating-card card-top">
+            <span>💻</span>
+            <div><strong>Clean Code</strong><small>Always learning</small></div>
+          </div>
+
+          <div class="floating-card card-bottom">
+            <span>✦</span>
+            <div><strong>Creative UI</strong><small>Simple • Modern • Useful</small></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll to about">
+        <span>Scroll to explore</span>
+        <span class="scroll-arrow">↓</span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — ABOUT ME</p>
+          <h2>A little bit <span class="gradient-text">about me.</span></h2>
+          <p>More than just code — I like understanding the problem behind the technology.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card profile-card reveal">
+            <div class="profile-avatar">WI</div>
+            <h3>Muhammad Waiz Izhan</h3>
+            <p class="muted">Diploma in Information Technology</p>
+            <div class="profile-line"></div>
+            <div class="mini-info"><span>📍</span><span>Malaysia</span></div>
+            <div class="mini-info"><span>🎯</span><span>Future IT Professional</span></div>
+            <div class="mini-info"><span>⚡</span><span>Always learning</span></div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p>
+              I am a Diploma in Information Technology student with an interest in
+              <strong>web development, UI design, databases and system development</strong>.
+              I enjoy experimenting with technology and building projects that are
+              practical and easy to use.
+            </p>
+            <p>
+              My goal is to continue improving my technical and creative skills while
+              gaining real-world experience in the IT field. I believe a good digital
+              product should not only work — it should also be clear, useful and enjoyable
+              to use.
+            </p>
+
+            <div class="interest-grid">
+              <div class="interest-card"><span>🌐</span><strong>Web Development</strong><small>Frontend & backend</small></div>
+              <div class="interest-card"><span>🎨</span><strong>UI / UX</strong><small>Clean interfaces</small></div>
+              <div class="interest-card"><span>🗄️</span><strong>Database</strong><small>Data & systems</small></div>
+              <div class="interest-card"><span>🔧</span><strong>IT Solutions</strong><small>Problem solving</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 — SKILLS</p>
+          <h2>Tools I use to <span class="gradient-text">build things.</span></h2>
+          <p>A growing toolkit built through classes, labs and personal projects.</p>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-list reveal">
+            <div class="skill-row">
+              <div><span class="skill-icon html">H</span><strong>HTML</strong></div>
+              <span>90%</span>
+              <div class="progress"><i style="--value:90%"></i></div>
+            </div>
+            <div class="skill-row">
+              <div><span class="skill-icon css">C</span><strong>CSS</strong></div>
+              <span>85%</span>
+              <div class="progress"><i style="--value:85%"></i></div>
+            </div>
+            <div class="skill-row">
+              <div><span class="skill-icon js">JS</span><strong>JavaScript</strong></div>
+              <span>75%</span>
+              <div class="progress"><i style="--value:75%"></i></div>
+            </div>
+            <div class="skill-row">
+              <div><span class="skill-icon php">P</span><strong>PHP</strong></div>
+              <span>70%</span>
+              <div class="progress"><i style="--value:70%"></i></div>
+            </div>
+            <div class="skill-row">
+              <div><span class="skill-icon sql">DB</span><strong>SQL / Database</strong></div>
+              <span>75%</span>
+              <div class="progress"><i style="--value:75%"></i></div>
+            </div>
+          </div>
+
+          <div class="tool-cloud reveal reveal-delay">
+            <div class="tool-chip">VS Code</div>
+            <div class="tool-chip">Figma</div>
+            <div class="tool-chip">Canva</div>
+            <div class="tool-chip">Git</div>
+            <div class="tool-chip">GitHub</div>
+            <div class="tool-chip">MySQL</div>
+            <div class="tool-chip">phpMyAdmin</div>
+            <div class="tool-chip">Cisco Packet Tracer</div>
+            <div class="tool-chip">Java</div>
+            <div class="tool-chip">Responsive Design</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 — PROJECTS</p>
+          <h2>Things I've <span class="gradient-text">worked on.</span></h2>
+          <p>A selection of academic and personal IT projects.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-visual food-project">
+              <span class="project-label">FYP</span>
+              <div class="mock-phone">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                  <small>LOCAL FOOD</small>
+                  <strong>Heritage</strong>
+                  <div class="phone-food"></div>
+                  <span>Explore Malaysian Food</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">01 · Mobile Application</div>
+              <h3>Local Food Heritage Digital Archive</h3>
+              <p>
+                An interactive mobile concept for documenting selected traditional
+                foods, their history, recipes, cultural significance and recommended locations.
+              </p>
+              <div class="tag-list"><span>Figma</span><span>UI/UX</span><span>Mobile App</span><span>FYP</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay">
+            <div class="project-visual network-project">
+              <div class="network-node n1">UTHM<br><small>Pagoh</small></div>
+              <div class="network-node n2">Router</div>
+              <div class="network-node n3">UTHM<br><small>Parit Raja</small></div>
+              <div class="network-line l1"></div>
+              <div class="network-line l2"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">02 · Networking</div>
+              <h3>Campus Network Communication</h3>
+              <p>Network communication and topology planning between UTHM campuses using networking concepts and simulation.</p>
+              <div class="tag-list"><span>Cisco</span><span>Networking</span><span>Packet Tracer</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual web-project">
+              <div class="browser-ui">
+                <div class="browser-bar"></div>
+                <div class="browser-content"><span></span><span></span><span></span><b>INSURANCE</b></div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">03 · Web Design</div>
+              <h3>Insurance Company Website</h3>
+              <p>A responsive website concept focused on clear information architecture, modern UI and user-friendly navigation.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual system-project">
+              <div class="dashboard-box"><b>HEALTH</b><div class="fake-bars"><i></i><i></i><i></i><i></i></div></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">04 · System Development</div>
+              <h3>Healthy Tracking System</h3>
+              <p>A system concept for recording and viewing health-related tracking information through a simple interface.</p>
+              <div class="tag-list"><span>System</span><span>Database</span><span>UI</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION / JOURNEY -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 — JOURNEY</p>
+          <h2>My <span class="gradient-text">learning journey.</span></h2>
+          <p>Small steps, real projects and continuous improvement.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">CURRENT</span>
+              <h3>Diploma in Information Technology</h3>
+              <p>Building foundations in programming, databases, networking, web development, system analysis and UI design.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">PROJECT EXPERIENCE</span>
+              <h3>Academic & Practical Projects</h3>
+              <p>Worked on websites, databases, networking simulations, system concepts and the Local Food Heritage Digital Archive FYP.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">NEXT STEP</span>
+              <h3>Grow as an IT Professional</h3>
+              <p>Continue strengthening development, networking and problem-solving skills through real-world projects and experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">05 — CONTACT</p>
+            <h2>Let's build something <span class="gradient-text">useful.</span></h2>
+            <p>
+              Have a project, idea or opportunity? Send me a message and let's talk.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:your.email@example.com">✉️ <span>your.email@example.com</span></a>
+              <a href="#" onclick="return false;">🔗 <span>LinkedIn — add your link</span></a>
+              <a href="#" onclick="return false;">🐙 <span>GitHub — add your link</span></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" id="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" id="email" placeholder="your@email.com" required>
+            </label>
+            <label>
+              Message
+              <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary full-btn">Send Message <span>↗</span></button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Muhammad Waiz Izhan. Built with curiosity & code.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
